@@ -18,6 +18,7 @@
     background-color: rgba(101, 108, 236, 1);
     height: 408px;
     margin-top: -10px;
+    margin-bottom: 50px;
     border-radius: 0px 0px 64px 64px;
 }
 .leaderlist{
@@ -86,16 +87,14 @@ h4{
 
 
 
-.rest{
+.rest1{
     background-color: rgba(210, 212, 242, 1);
     height: 100px;
-    
-    
+    margin-top: -20px;
 }
-.rest ul{
+.rest1 ul{
     display: grid;
     grid-template-columns: 10% 10% 20% 60%;
-    
     
 
 }
@@ -111,15 +110,15 @@ h4{
     width: 80px;
     height: 80px;
     position: relative;
-    top: 22px;
+    top: 23px;
     border-radius: 50%;
 }
-.rest li, .rest1 li{
+.rest1 li{
     text-align: right;
     position: relative;
     right: 100px;
 } 
-.rest .name, .rest1 .name{
+ .rest1 .name{
     text-align: left;
     position: relative;
     left: 70px;
@@ -131,16 +130,10 @@ h4{
 
 
 
-.rest1{
-    background-color: rgba(210, 212, 242, 1);
-    height: 100px;
-    margin-top: -20px;
-}
-.rest1 ul{
-    display: grid;
-    grid-template-columns: 10% 10% 20% 60%;
-    
-
+.sphoto{
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
 }
 
 
@@ -158,12 +151,6 @@ h4{
 .hover:hover{
 	-webkit-transform: scale(1.1);
 	transform: scale(1.3);
-}
-
-.sphoto{
-    border-style: solid;
-    border-color: white;
-    border-width: 5px;
 }
     
 
